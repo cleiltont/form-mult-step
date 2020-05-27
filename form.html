@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form id="form" onsubmit="return validaForm()">
+		<h2>Formulario de Inscriçao</h2>
+		<section id="etapas">
+			<i id="etp1" class="far fa-check-circle"></i>
+			<i id="etp2" class="far fa-check-circle"></i>
+			<i id="etp3" class="far fa-check-circle"></i>
+			<i id="etp4" class="far fa-check-circle"></i>
+		</section>
+		<div id="info">
+			<div id="nome">
+				<label for="">
+					Nome
+					<input name="nome" required type="text">
+				</label>
+				<label for="">
+					Sobrenome
+					<input name="apelido" required type="text">
+				</label>
+				<div class="bts">
+					<button type="button" name="prox1">Proximo</button>
+				</div>
+			</div>
+			<div id="contato">
+				<label for="">
+					Enderço de email
+					<input name="email" required type="email">
+				</label>
+				<label for="">
+					Numero de telefone
+					<input name="telefone" required type="tel">
+				</label>
+				<div class="bts">
+					<button name="ant1">Anterior</button>
+					<button type="button" name="prox2">Proximo</button>
+				</div>
+			</div>
+			<div id="aniver">
+				<label for="">
+					Data
+					<input name="data" required type="date">
+				</label>
+				<label for="">
+					Genero<br>
+					<select name="genero" id="" required>
+						<option value="masculino">Masculino</option>
+						<option value="feminino">Feminino</option>
+					</select>
+				</label>
+				<div class="bts">
+					<button name="ant2">Anterior</button>
+					<button type="button" name="prox3">Proximo</button>
+				</div>
+			</div>
+			<div id="submit">
+				<label for="">
+					Usuario
+					<input name="usuario" required type="text">
+				</label>
+				<label for="">
+					Senha
+					<input name="senha" required type="password">
+				</label>
+				<div class="bts">
+					<button name="ant3">Anterior</button>
+					<button type="submit" name="concluir">Concluir</button>
+				</div>
+				
+			</div>
+		</div>
+	</form>
+	<script src="script.js"></script>
+</body>
+</html>
