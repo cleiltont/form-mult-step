@@ -2,20 +2,21 @@
  Formulario com variais etapas
 ![](inicio.PNG)
 
-🗒 Sobre:
+## 🗒 Sobre
 Formulario de etapas simples.
 Apenas para praticar javascrit.
 
-🔨 Tecnologias:
+
+## 🔨 Tecnologias:
 - HHTML
 - CSS
 - JAVASCRIPT
 
 
-📚 Requisitos:
+## 📚 Requisitos:
 - Nenhum
 
 
-🏁 Como executar o projeto:
+## 🏁 Como executar o projeto:
 - Baixar ou clonar o repositorio
 - Abrir o arquivo form.html no navegador
